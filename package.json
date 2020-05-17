@@ -1,0 +1,44 @@
+{
+  "name": "rott",
+  "version": "0.1.0",
+  "main": "index.html",
+  "description": "First Crank Material SPA",
+  "scripts": {
+    "build": "webpack --config webpack.prod.cjs",
+    "start": "webpack-dev-server --open --config webpack.dev.cjs",
+    "test": "mocha"
+  },
+  "type": "module",
+  "esm": {},
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/preset-env": "^7.7.7",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-jsx-pragmatic": "^1.0.2",
+    "babel-preset-crank": "0.0.1",
+    "chai": "^4.2.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^1.0.1",
+    "extract-loader": "^3.1.0",
+    "file-loader": "^5.0.2",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.0.1",
+    "mocha": "^7.1.2",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^7.3.1",
+    "sinon": "^9.0.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@bikeshaving/crank": "^0.1.2"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
