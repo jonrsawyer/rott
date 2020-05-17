@@ -1,9 +1,12 @@
+/** @jsx createElement */
+import {createElement} from "@bikeshaving/crank";
+
 import { renderer } from 'node_modules/@bikeshaving/crank/dom';
 
 function Main() {
 
     return (
-        <h1>Hello, world</h1>
+      createElement("h1", {id: "element"}, "Hello World")
   );
 }
 
